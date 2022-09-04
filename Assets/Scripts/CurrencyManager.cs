@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Currency_manager_script : MonoBehaviour
+public class CurrencyManager : MonoBehaviour
 {
     [Header("Currency Manager")]  
     [SerializeField] float currentPower = 1;

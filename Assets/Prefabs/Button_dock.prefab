@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 547942704735792421}
   - component: {fileID: 547942704735792418}
   m_Layer: 5
-  m_Name: Button_dock
+  m_Name: Button_Dock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
