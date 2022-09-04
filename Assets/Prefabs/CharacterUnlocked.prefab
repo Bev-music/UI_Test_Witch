@@ -122,7 +122,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2272772812339862972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &-8210875249055194020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,4 +176,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yourButton: {fileID: 2272772812339862974}
-  screen: {fileID: 627496721892644958, guid: cda8025b359a4b5429a3256b0ea3e405, type: 3}

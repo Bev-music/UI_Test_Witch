@@ -7,6 +7,7 @@ public class ButtonClicked : MonoBehaviour
 	public Button yourButton;
     private GameObject screen;
     private GameObject backButton;
+    
     void Start()
     {
         yourButton.onClick.AddListener(TaskOnClick);
@@ -16,7 +17,6 @@ public class ButtonClicked : MonoBehaviour
 
     public void TaskOnClick()
     {
-        Debug.Log("You have clicked the button!");
         screen.SetActive(true);
         backButton.SetActive(true);
     }
